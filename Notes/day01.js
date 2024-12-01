@@ -15,8 +15,8 @@
 // library: only taking history book
 
 // library is a collection of reusable blocks of code whereas framework is a collection of libraries
-// library:
 
+// library:
     // libraries are light weight
     // libraries are always particular functionality oriented 
     // using libraries, we can create fast and scalable applications
@@ -50,7 +50,7 @@
     // will help to reduce the bandwidth
     // if we are sending n no of request from the frontend that multiple requests are bundled into as minimum no of request as possible based on their extensions by the package bundler. So that bandwidth (no of request and response cycles per second) will be reduced.
     // As minimum is your bandwidth that much fast is your application
-    // ex: webpack, rollup, parcer
+    // ex: webpack, rollup, parcel
 
 // steps for the INSTALLATION of REACT:
 
