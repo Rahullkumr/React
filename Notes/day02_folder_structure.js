@@ -56,6 +56,8 @@
 
 // 10. vite.config.js
     // will contain vite configurations
+    // 40% faster than others
+    // minimum size of project created using vite (55 MB)
 
 
 
