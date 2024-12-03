@@ -2,6 +2,8 @@
 
 Learning React from Prasad Kadam sir
 
+![React Banner](banner.png)
+
 ## Content
 
 1. [Details about other branches](#details-about-other-branches)
