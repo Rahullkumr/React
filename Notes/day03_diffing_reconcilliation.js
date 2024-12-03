@@ -32,4 +32,14 @@ JSX:
 `
 strict mode will check the JS file two times.
 `
+
+// COMPONENTS:
+    // components are reusable block of code that always returns jsx code.
+    // eg:
+        // an EMPIRE 
+        // where different different villages are like components and the main.jsx acts like the king,
+        // only the king communicates with the foreign bodies.
+
+
+
 // task: create a webpage using components
