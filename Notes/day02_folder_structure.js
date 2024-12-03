@@ -17,6 +17,8 @@
 
 
 // 3. src (write everything here)
+    // main source folder for writing React code.
+    // Components (folder) > about (folder) > about.html, about.css
 
 
 
