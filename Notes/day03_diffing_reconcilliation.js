@@ -35,6 +35,8 @@ strict mode will check the JS file two times.
 
 // COMPONENTS:
     // components are reusable block of code that always returns jsx code.
+    // the first letter of a component must be uppercase.
+    // agar galti se lowercase me likhe to naya banane time change the name(uppercase, lowercase change krne se kuch nahi hoga) because it remembers the previous name
     // eg:
         // an EMPIRE 
         // where different different villages are like components and the main.jsx acts like the king,
