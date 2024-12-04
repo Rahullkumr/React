@@ -51,15 +51,22 @@ Go explore other branches also
     ```bash
     cd LearningReact
     ```
- 4. Install the project dependencies:
+ 4. Navigate to particular project:
+
+    ```bash
+    cd FirstInstallation
+    <!-- or -->
+    cd ReactByPrasadSir
+    ```
+ 5. Install the project dependencies:
 
     ```bash
     npm install
     ```
- 5. Start the development server:
+ 6. Start the development server:
 
     ```bash
     npm run dev
     ```
- 6. Open http://localhost:5173 in your browser to view the app.
+ 7. Open http://localhost:5173 in your browser to view the app.
 
