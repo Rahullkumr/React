@@ -23,7 +23,7 @@
     // applications that are created using library are easy to debug.
 
 // framework:
-    // libraries are heavy weighted
+    // frameworks are heavy weighted
     // focus on multiple functionalites
     // compared to libraries frameworksa are more strictly typed
     // if we want any external libraries or frameworks we can install them
@@ -44,6 +44,7 @@
     // request reaponse cycle bahut kam rehta hai, thats why single page apps are fast.
     // AJAX will send only the necessary request to the server, so that bandwidth will be very very less
     // and because of that request response cycle becomes very very faster and ultimately your application becomes faster.
+    // AJAX helps in changing the page content without page refresh.
 
 // Package bundler?
     // will bundle all the requests into individual bundles based on the extensions
