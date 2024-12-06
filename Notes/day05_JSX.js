@@ -88,7 +88,9 @@ jsxRules(folder):
 
         - kyu 3 ways to do same thing? 
             - we cant use 'key' attribute with empty fragment but baaki k dono (<fragment> or <React.fragment></React.fragment>) k saath likh skte
+    
+    
     // JsxRule6.jsx (component)
-        - 
+        - related to jsx expression
 
 `
