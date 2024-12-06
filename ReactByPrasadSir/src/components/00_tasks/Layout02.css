@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#blackme{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+#bluebg{
+    background-color: #2196f3;
+    height: 80%;
+    width: 50%;  
+    flex-direction: column; 
+    gap: 15px; 
+}
+#blackme, #bluebg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner{
+    height: 80%;
+    width: 60%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 15% 34% 34% 17%;
+    di{
+        border: 1px solid black;
+    }
+}
+#bannertop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid black; */
+    height: 100%;
+    div{
+        border: 1px solid black;
+    }
+    #logo{
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    #logo>img{
+        height: 60%;
+        width: 60%;
+        margin-left: 10px;
+    }
+    #banner-top-mid{
+        flex-direction: column;
+        background-color: whitesmoke;
+        color: black;
+        p{
+            font-size: 9px;
+            width: 70%;
+            height: 80%;
+        }
+    }
+    #free-for-all{
+        background-color: orange;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    #free-for-all, #banner-top-mid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#bannermid1{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black; 
+}
+#bannermid2{
+    border: 1px solid black; 
+    height: 100%;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bannerbottom{
+    display: flex;
+    height: 100%;
+    div{
+        border: 1px solid black; 
+        width: 100%;
+    }
+}
+#bannerbottom1{
+    background-color: rgb(211, 53, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    h6,p{
+        width: 70%;
+
+    }
+    p{
+        font-size: 8px;
+        width: 70%;
+    }
+}
+#bannerbottom2{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    h6,p{
+        width: 70%;
+    }
+    p{
+        font-size: 8px;
+        width: 70%;
+    }
+}
