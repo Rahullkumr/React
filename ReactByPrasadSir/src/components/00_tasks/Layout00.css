@@ -1,0 +1,21 @@
+nav{
+    background-color: red;
+    height: 15vh;
+}
+.home{
+    display: flex;
+    aside{
+        background-color: orange;
+        height: 80vh;
+        width: 20%;
+    }
+    main{
+        background-color: green;
+        height: 80vh;
+        width: 80%;
+    }
+}
+footer{
+    background-color: gray;
+    height: 5vh;
+}
