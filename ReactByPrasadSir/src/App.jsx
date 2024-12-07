@@ -10,13 +10,13 @@ function App() {
     <>
 {/* ============ Tasks ============ */}
       <Layout00/>
-      {/* <Layout01/> */}
-      {/* <Layout02/> */}
+      <Layout01/>
+      <Layout02/>
 
 
 
 {/* ============ Components ============ */}
-      {/* <JsxIntro/> */}
+      <JsxIntro/>
       
     </>
   )
