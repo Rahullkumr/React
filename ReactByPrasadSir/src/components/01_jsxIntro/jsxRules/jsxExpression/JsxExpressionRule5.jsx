@@ -1,17 +1,16 @@
-//if your writing the first lettter of a tagname in Uppercase it will treat it as a component and in some it will treat it as an html
-let JsxExpressionRule5 = ()=>{
-    return (
-        <div>
-            <h1>JsxExpressionRule5</h1>
-            <Prasad>        
-                hello, it will treat as component name  
-            </Prasad>
+// If you write the first letter of a tag name in uppercase, React treats it as a component.
+// If the tag name starts with a lowercase letter, it is treated as an HTML element.
 
-            {/* <prasad>
-                hello
-            </prasad>        it will treat it as html*/}
-        </div>
-        
-    )
-}
+let JsxExpressionRule5 = () => {
+  return (
+    <div>
+      <h1>JsxExpressionRule5</h1>
+      <Prasad>hello, this will be treated as a component name</Prasad>
+
+      {/* <prasad>
+          hello, This will be treated as an HTML element
+        </prasad> */}
+    </div>
+  );
+};
 export default JsxExpressionRule5;
