@@ -4,7 +4,7 @@ import Layout01 from './components/00_tasks/Layout01.jsx'
 import Layout02 from './components/00_tasks/Layout02.jsx'
 import JsxIntro from './components/01_jsxIntro/JsxIntro.jsx'
 import ClassBasedCompIntro from './components/02_typesOfComponents/02_classBasedComp/ClassBasedCompIntro.jsx'
-import UseStateIntro from './components/03_hooks/01_useStateHook/UseStateIntro.jsx'
+import HooksIntro from './components/03_hooks/HooksIntro.jsx'
 
 function App() {
   
@@ -23,7 +23,7 @@ function App() {
 
 
 {/* ============ hooks ============ */}
-      <UseStateIntro/>
+      <HooksIntro/>
 
     </>
   )
