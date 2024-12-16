@@ -2,6 +2,10 @@
 
 
 
+// PROPS
+
+
+
 // ============== Today's tasks ===================
 
     // - create products array of obj in PropsIntro
