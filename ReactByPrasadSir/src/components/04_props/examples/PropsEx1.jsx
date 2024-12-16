@@ -1,24 +1,20 @@
-import Child from "./Child";
+import PropsEx1Child from "./PropsEx1Child";
 
-let PropsEx1 = () => {
+const PropsEx1 = ()=>{
+    let a = 10
+    let b = 20
+    let car = 'BMW'
 
-  const obj = {
-    name : "Mahesh",
-    mobile : 7030116520,
-    qualification : "B.Tech"
-  }
 
-  const arr = ['HTML', 'CSS', 'JS', 'ReactJs'];
+    return (
+        <div>
+            {/* <PropsEx1Child props={a}/> */}
+            {/* <PropsEx1Child props={{a,b}}/> */}
+            <PropsEx1Child gift={car}/>
 
-  return (
-    <div> 
-      <h3>Props Example 1</h3>
-      {/* <Child data = {obj} /> */}
-
-      <Child data = {arr} />
-      
-    </div>
-  )
+            {/* default props ⬇️ */}
+            <PropsEx1Child/>
+        </div>
+    );
 }
-
 export default PropsEx1;
