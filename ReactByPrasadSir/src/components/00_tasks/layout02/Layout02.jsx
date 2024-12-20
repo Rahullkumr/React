@@ -1,4 +1,4 @@
-import Bluebg from "./layout02/Bluebg";
+import Bluebg from "./Bluebg";
 import './Layout02.css'
 
 let Layout02 = ()=>{

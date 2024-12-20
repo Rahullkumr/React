@@ -1,7 +1,7 @@
 import './Layout00.css'
-import Footer from './layout00/Footer';
-import Middlesection from './layout00/Middlesection';
-import Navbar from './layout00/Navbar';
+import Footer from './Footer.jsx';
+import Middlesection from './Middlesection.jsx';
+import Navbar from './Navbar.jsx';
 
 let Layout00 = ()=>{
     return (
