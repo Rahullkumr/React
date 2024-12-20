@@ -7,6 +7,7 @@ import ClassBasedCompIntro from './components/02_typesOfComponents/02_classBased
 import HooksIntro from './components/03_hooks/HooksIntro.jsx'
 import PropsIntro from './components/04_props/PropsIntro.jsx'
 import ConditionalRenderingIntro from './components/05_conditionalRendering/ConditionalRenderingIntro.jsx'
+import EventsIntro from './components/06_Events/EventsIntro.jsx'
 
 function App() {
   
@@ -31,7 +32,10 @@ function App() {
             {/* <PropsIntro/> */}
 
       {/* ============ Conditional Rendering ============ */}
-            <ConditionalRenderingIntro/>
+            {/* <ConditionalRenderingIntro/> */}
+
+      {/* ============ Conditional Rendering ============ */}
+            <EventsIntro/>
     </>
   )
 }
