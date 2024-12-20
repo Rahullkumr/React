@@ -6,23 +6,10 @@ Learning React from Prasad Kadam sir
 
 ## Content
 
-1. [Details about other branches](#details-about-other-branches)
+1. [React Installation Guide](#steps-for-the-installation-of-react)
 
-2. [React Installation Guide](#steps-for-the-installation-of-react)
+2. [Steps to run this project locally](#steps-to-run-this-project-locally)
 
-3. [Steps to run this project locally](#steps-to-run-this-project-locally)
-
-
-## Details about other branches
-
-
-```diff
-+ There are multiple branches in this repository. Each branch contains code and tasks related to that day only.
-
-- This branch is for day01 and day02
-
-Go explore other branches also
-```
 
 ## Steps for the Installation of React
 
