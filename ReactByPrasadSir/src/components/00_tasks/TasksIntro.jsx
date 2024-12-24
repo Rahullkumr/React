@@ -1,4 +1,10 @@
-// use css as well as tailwind
+/* 
+    To see the proper styling of Layout02, go to src/index.css and comment following 3 lines:
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+*/
+
 
 import React from 'react'
 import Layout00 from './layout00/Layout00'
