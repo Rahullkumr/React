@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {/* ============ Tasks ============ */}
-            <TasksIntro/>
+            {/* <TasksIntro/> */}
 
 
 
@@ -38,7 +38,7 @@ function App() {
 
 
       {/* ============ Conditional Rendering ============ */}
-            {/* <EventsIntro/> */}
+            <EventsIntro/>
     </>
   )
 }
