@@ -69,6 +69,7 @@ These phases represent the unique lifespan of the component:
 
 5. **componentDidUpdate()**:
    - Checks for changes in the state and handles side-effects based on those changes.
+   - Executes many times but only when there is some changes in the state
 
 ---
 
