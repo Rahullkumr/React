@@ -7,7 +7,7 @@ import JsxRule6 from "./jsxRules/JsxRule6";
 import './JsxIntro.css'
 
 /* 
-    To see the proper styling of Layout02, go to src/index.css and comment following 3 lines:
+    To see the proper styling, go to src/index.css and comment following 3 lines:
             @tailwind base;
             @tailwind components;
             @tailwind utilities;
