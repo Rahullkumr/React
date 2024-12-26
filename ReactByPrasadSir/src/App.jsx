@@ -1,11 +1,13 @@
 import './App.css'
 import TasksIntro from './components/00_tasks/TasksIntro.jsx'
 import JsxIntro from './components/01_jsxIntro/JsxIntro.jsx'
-import ClassBasedCompIntro from './components/02_typesOfComponents/02_classBasedComp/ClassBasedCompIntro.jsx'
+import TypesOfCompIntro from './components/02_typesOfComponents/TypesOfCompIntro.jsx'
+import UseEffectIntro from './components/03_hooks/02_useEffect/UseEffectIntro.jsx'
 import HooksIntro from './components/03_hooks/HooksIntro.jsx'
 import PropsIntro from './components/04_props/PropsIntro.jsx'
 import ConditionalRenderingIntro from './components/05_conditionalRendering/ConditionalRenderingIntro.jsx'
 import EventsIntro from './components/06_Events/EventsIntro.jsx'
+import ContextApiIntro from './components/07_context api/ContextApiIntro.jsx'
 
 function App() {
   
@@ -18,7 +20,8 @@ function App() {
 
       {/* ============ Components and its types ============ */}
             {/* <JsxIntro/> */}
-            {/* <ClassBasedCompIntro/> */}
+
+            {/* <TypesOfCompIntro/> */}
 
 
 
@@ -27,7 +30,7 @@ function App() {
 
 
 
-      {/* ============ hooks ============ */}
+      {/* ============ props ============ */}
             {/* <PropsIntro/> */}
 
 
@@ -37,8 +40,16 @@ function App() {
 
 
 
-      {/* ============ Conditional Rendering ============ */}
-            <EventsIntro/>
+      {/* ============ Event handling ============ */}
+            {/* <EventsIntro/> */}
+
+
+      {/* ============ useEffect Hook ============ */}
+            {/* <UseEffectIntro/> */}
+            
+            
+      {/* ============ context api ============ */}
+            <ContextApiIntro/>
     </>
   )
 }

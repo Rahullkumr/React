@@ -1,4 +1,5 @@
 import UseStateIntro from "./01_useStateHook/UseStateIntro";
+import UseEffectIntro from "./02_useEffect/UseEffectIntro";
 
 let HooksIntro = () => {
   return (
@@ -20,6 +21,7 @@ let HooksIntro = () => {
       </p>
       <br />
       <UseStateIntro />
+      {/* <UseEffectIntro/> */}
     </div>
   );
 };
