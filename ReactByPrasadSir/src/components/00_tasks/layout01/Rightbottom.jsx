@@ -3,7 +3,7 @@ import whatsapp from '../../../assets/task/layout01/whatsapp.png'
 import facebook from '../../../assets/task/layout01/facebook.png'
 import instagram from '../../../assets/task/layout01/instagram.png'
 
-let RightBottom = ()=>{
+let Rightbottom = ()=>{
     return (
         <main className='rightbottom'>
             <img src={twitter} alt="twitter logo" />
@@ -13,4 +13,4 @@ let RightBottom = ()=>{
         </main>
     );
 }
-export default RightBottom;
+export default Rightbottom; 

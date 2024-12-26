@@ -3,7 +3,7 @@ import Leftbottom from "./Leftbottom";
 import Center from "./Center";
 import Righttop from "./Righttop";
 import Rightcenter from "./Rightcenter";
-import RightBottom from "./RightBottom";
+import Rightbottom from "./Rightbottom";
 
 let Body = ()=>{
     return (
@@ -27,7 +27,7 @@ let Body = ()=>{
                     <Rightcenter/>
                 </div>
                 <div>
-                    <RightBottom/>
+                    <Rightbottom/>
                 </div>
             </div>
         </section>
