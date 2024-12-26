@@ -6,7 +6,7 @@ const PropsEx1Child = ({gift = 'Swift'})=>{   // destructuring and giving defaul
     
     return (
         <div>
-            propsEx1 child
+            {gift}
         </div>
     );
 }
