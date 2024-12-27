@@ -1,13 +1,12 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useState } from "react";
 
+export let myStore = createContext();
 
-export let myStore = createContext()
-
-const AppContext = ({children}) => {    // destructuring
-    let [state, setState] = useState(0)
+const AppContext = ({ children }) => {  // destructuring
+  let [state, setState] = useState(0);
   return (
-    <myStore.Provider value={{state, setState}}>{children}</myStore.Provider>
-  )
-}
+    <myStore.Provider value={{ state, setState }}>{children}</myStore.Provider> // value is a prop
+  );
+};
 
-export default AppContext
+export default AppContext;

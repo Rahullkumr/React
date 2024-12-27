@@ -5,6 +5,10 @@ const ContextEx1 = () => {
   let data = useContext(myStore);
   console.log(data);
   let { state, setState } = data;
+
+  // or just this one liner
+      // let { state, setState } = useContext(myStore)
+
   return (
     <div className="bg-gray-600/15 p-10 w-1/3 flex flex-col items-center">
       <h1 className="text-3xl">state: {state}</h1>
