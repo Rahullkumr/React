@@ -1,0 +1,3 @@
+[submodule "webtech"]
+	path = webtech
+	url = https://github.com/Rahullkumr/webtech.git
