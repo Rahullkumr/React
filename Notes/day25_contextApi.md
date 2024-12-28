@@ -50,8 +50,3 @@
 - ### We can have multiple components in a single file.
 
 - ### It is not compulsory to keep the name of component and filename same 
-
-- ### bidirectional data flow (state lifting) also called flux architecture
-
-
-Todo: pass a value in the child component as a fn call and access that value in parent component using props
