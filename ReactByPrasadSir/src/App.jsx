@@ -6,10 +6,10 @@ import HooksIntro from './components/03_hooks/HooksIntro.jsx'
 import PropsIntro from './components/04_props/PropsIntro.jsx'
 import ConditionalRenderingIntro from './components/05_conditionalRendering/ConditionalRenderingIntro.jsx'
 import EventsIntro from './components/06_Events/EventsIntro.jsx'
-import UseEffectIntro from './components/03_hooks/02_useEffect/UseEffectIntro.jsx'
-import ContextApiIntro from './components/07_context api/ContextApiIntro.jsx'
-import DataFlowIntro from './components/08_dataFlow/DataFlowIntro.jsx'
-import UseRefIntro from './components/09_useRefHook/UseRefIntro.jsx'
+import ContextApiIntro from './components/07_useEffect/UseEffectIntro.jsx'
+import ContextApiIntro from './components/08_context api/ContextApiIntro.jsx'
+import DataFlowIntro from './components/09_dataFlow/DataFlowIntro.jsx'
+import UseRefIntro from './components/10_useRefHook/UseRefIntro.jsx'
 
 function App() {
   
