@@ -32,7 +32,7 @@ const BasicCounter = () => {
       <h1>1. Basic Counter App</h1>
       <h1 className='text-3xl'>{count}</h1>
       <div>
-        <button onClick={decrement} className='border rounded-md text-white bg-blue-600 p-2 hover:bg-blue-700'>Decrement</button>
+        <button onClick={decrement} disabled={count==0?true:false} className='border rounded-md text-white bg-blue-600 p-2 hover:bg-blue-700'>Decrement</button>
         <button onClick={reset} className='border rounded-md text-white bg-blue-600 p-2 hover:bg-blue-700  mx-5'>Reset</button>
         <button onClick={increment} className='border rounded-md text-white bg-blue-600 p-2 hover:bg-blue-700'>Increment</button>
       </div>
