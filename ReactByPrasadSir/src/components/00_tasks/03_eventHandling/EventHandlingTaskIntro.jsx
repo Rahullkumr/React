@@ -3,7 +3,7 @@ import React from 'react'
 const EventHandlingIntro = () => {
   return (
     <div>
-
+      <h1 className="text-2xl font-bold m-4 text-center text-blue-600">Tasks: Event Handling</h1>
     </div>
   )
 }

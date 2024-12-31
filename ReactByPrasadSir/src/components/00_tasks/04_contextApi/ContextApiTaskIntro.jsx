@@ -1,32 +1,36 @@
 import React from 'react'
+import BasicCounter from './01_BasicCounter'
+import ToggleVisibility from './02_ToggleVisibility'
+import DynamicFormInput from './03_DynamicFormInput'
+import ThemeSwitcher from './04_ThemeSwitcher'
+import CounterWithStepSize from './05_CounterWithStepSize'
+import MultiStepForm from './06_MultiStepForm'
+import RandomQuoteGenerator from './07_RandomQuoteGenerator'
+import LiveCharacterCounter from './08_LiveCharacterCounter'
+import ShoppingCart from './09_ShoppingCart'
 
 const ContextApiTaskIntro = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <h1 className="text-2xl font-bold m-4 text-center text-blue-600">Tasks after Context API class</h1>
+      <div className='bg-blue-100 p-5 grid grid-cols-3 gap-2'>
+        <BasicCounter/>
+        <ToggleVisibility/>
+        <DynamicFormInput/>
+        <ThemeSwitcher/>
+        <CounterWithStepSize/>
+        <MultiStepForm/>
+        <RandomQuoteGenerator/>
+        <LiveCharacterCounter/>
+        <ShoppingCart/>
+      </div>
+    </>
   )
 }
 
 export default ContextApiTaskIntro
 
  
-// 1. Basic Counter App
-
-// Task:
-
-// Create a counter app with a useState hook to track the count value.
-
-// Add three buttons: "Increment," "Decrement," and "Reset."
-
-// Clicking "Increment" increases the count by 1, "Decrement" decreases it by 1, and "Reset" sets the count back to 0.
-
-// Display the count in the center of the screen, styled with a large font size.
-
-
-// Bonus: Disable the "Decrement" button when the count is 0 to prevent negative values.
-
-
 // ---
 
 // 2. Toggle Visibility
