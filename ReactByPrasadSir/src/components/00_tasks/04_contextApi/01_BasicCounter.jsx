@@ -18,11 +18,7 @@ const BasicCounter = () => {
     setCount(count+1);
   }
   let decrement = (e)=>{
-    if(count == 0){
-      e.target.style.color= 'red'
-    }else{
-      setCount(count-1);
-    }
+    setCount(count-1);
   }
   let reset = ()=>{
     setCount(0);
