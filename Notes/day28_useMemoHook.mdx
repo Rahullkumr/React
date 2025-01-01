@@ -8,7 +8,7 @@
     - kya hoga?
 
 - useMemo():
-    - ek sada pyaaj sataa container ko sada deta hai, useMemo() removes that rot pyaaj 
+    - ek sada pyaaj saraa container ko sada deta hai, useMemo() removes that rot pyaaj 
 
 - it is used for performance optimization.
 
@@ -21,4 +21,4 @@
 ```jsx
 const memoizedValue = useMemo(cbf, dependencyArray)
 ```
-- Your cbf passed to the useMemo() hook, if has any expensive/heavy calculation/computation, so it could affect the overall performance of the application but as it is used with the useMemo() hook, it wan't get called on each component re-render. It will get called only when there are some changes in dependencies and it will return the memoized value
+- Your cbf passed to the useMemo() hook, if has any expensive/heavy calculation/computation, so it could affect the overall performance of the application but as it is used with the useMemo() hook, it won't get called on each component re-render. It will get called only when there are some changes in dependencies and it will return the memoized value
