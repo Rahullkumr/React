@@ -11,6 +11,7 @@ import ContextApiIntro from './components/08_context api/ContextApiIntro.jsx'
 import DataFlowIntro from './components/09_dataFlow/DataFlowIntro.jsx'
 import UseRefIntro from './components/10_useRefHook/UseRefIntro.jsx'
 import UseReducerIntro from './components/11_useReducer/UseReducerIntro.jsx'
+import UseMemoIntro from './components/12_useMemo/UseMemoIntro.jsx'
 
 function App() {
   
@@ -48,7 +49,10 @@ function App() {
             {/* <UseRefIntro/> */}
 
       {/* ============ UseReducer hook ============ */}
-            <UseReducerIntro/>
+            {/* <UseReducerIntro/> */}
+
+      {/* ============ UseMemo hook ============ */}
+            <UseMemoIntro/>
 
     </>
   )
