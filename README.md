@@ -10,6 +10,8 @@ Learning React from Prasad Kadam sir
 
 2. [Steps to run this project locally](#steps-to-run-this-project-locally)
 
+3. [Steps to configure Tailwind in a React project](#steps-to-configure-tailwind)
+
 
 ## Steps for the Installation of React
 
@@ -57,3 +59,54 @@ Learning React from Prasad Kadam sir
     ```
  7. Open http://localhost:5173 in your browser to view the app.
 
+
+## Steps to configure Tailwind
+
+1. Install Tailwind CSS and other dependencies
+
+   ```js
+   npm install -D tailwindcss postcss autoprefixer
+   ```
+
+2. Initialize the Tailwind CSS to create `tailwind.config.js`
+
+   ```js
+   npx tailwindcss init
+   ```
+
+3. Configure Tailwind css
+
+   > In the tailwind.config.js file, specify the paths to all your template files
+
+   ```js
+   content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+   ],
+   ```
+4. Add Tailwind Directives to `src/index.css`
+   ```js
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+   ```
+5. Ensure this CSS file is imported into the main JavaScript file (i.e `src/main.jsx`)
+
+   ```js
+   import './index.css';
+   import React from 'react';
+   import ReactDOM from 'react-dom';
+   import App from './App';
+
+   ReactDOM.createRoot(document.getElementById('root')).render(
+   <React.StrictMode>
+      <App />
+   </React.StrictMode>,
+   );
+
+   ```
+
+6. Now start the dev server
+   ```js
+   npm run dev
+   ```
