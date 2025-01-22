@@ -1,0 +1,5 @@
+6. Build a counter with increment, decrement, and reset buttons using useState.
+7. Create a toggle button that switches between "Light Mode" and "Dark Mode."
+8. Build a form that updates a state variable for each input field in real time.
+9. Create a component that adds a new task to a to-do list and displays the updated list.
+10. Build a simple shopping cart where clicking “Add to Cart” increases a product’s count.

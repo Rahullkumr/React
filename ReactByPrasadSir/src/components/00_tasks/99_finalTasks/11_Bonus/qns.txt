@@ -1,0 +1,6 @@
+
+Create a component that simulates typing a message one letter at a time.
+Build a random quote generator that fetches quotes from an API.
+Create a small quiz app with multiple-choice questions.
+Build a Pomodoro timer with start, pause, and reset buttons.
+Create a memory card game where cards flip when clicked.

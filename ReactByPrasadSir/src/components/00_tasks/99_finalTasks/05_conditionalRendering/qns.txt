@@ -1,0 +1,5 @@
+21. Create a login form that displays “Welcome, [username]!” after submission.
+22. Build a weather app that shows different messages for sunny, rainy, or cloudy weather.
+23. Display a “Loading…” message until data is fetched from an API.
+24. Show a custom message when no tasks are available in a to-do list.
+25. Build a component that displays different themes based on a selected value.

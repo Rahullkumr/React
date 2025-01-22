@@ -1,0 +1,5 @@
+31. Build a login form with username and password fields.
+32. Create a form to accept user feedback and display it below after submission.
+33. Build a registration form that validates the email format.
+34. Create a form where users can add items to a shopping list.
+35. Build a simple contact form with input fields and a submit button.

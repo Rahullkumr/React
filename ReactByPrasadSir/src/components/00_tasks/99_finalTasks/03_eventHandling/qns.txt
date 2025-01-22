@@ -1,0 +1,5 @@
+11. Add a button that displays an alert when clicked.
+12. Build a form where clicking “Submit” displays the entered values in a console.
+13. Create a component with an input field where typing updates a paragraph below it.
+14. Implement a button that toggles the visibility of a paragraph.
+15. Create a dropdown menu that displays the selected value when changed.

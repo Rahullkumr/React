@@ -1,0 +1,6 @@
+
+46. Build a shopping cart using React Context for global state.
+47. Implement a theme switcher using React Context and useReducer.
+48. Create a basic Redux setup to manage a counter state.
+49. Use Redux to fetch and store a list of users from an API.
+50. Build a React app that manages tasks using Redux (add, edit, delete tasks).

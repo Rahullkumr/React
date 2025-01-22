@@ -1,0 +1,6 @@
+
+41. Set up routes for Home, About, and Contact pages in a React app.
+42. Use useParams to fetch and display details of a selected product.
+43. Create a navigation menu that highlights the active page.
+44. Redirect users to a “404 Not Found” page for invalid routes.
+45. Create a protected route that requires login to access certain pages.

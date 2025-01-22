@@ -1,0 +1,6 @@
+
+16. Fetch a random joke from an API and display it when the component loads.
+17. Create a clock that updates every second using useEffect.
+18. Track mouse coordinates and display them in real time on the screen.
+19. Display a “Welcome Back” message only once when a user visits the page.
+20. Use useEffect to log a message every time a counter is incremented.

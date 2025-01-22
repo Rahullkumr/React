@@ -1,0 +1,6 @@
+
+36. Create a custom hook for fetching data from an API.
+37. Build a custom hook that tracks window width and height.
+38. Create a hook that toggles a boolean value (e.g., useToggle).
+39. Write a hook that fetches and caches user data to avoid unnecessary API calls.
+40. Implement a hook that tracks whether a user is idle or active.

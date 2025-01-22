@@ -1,0 +1,5 @@
+26. Create an array of colors and display them as a list.
+27. Map through a list of students and display their names and grades.
+28. Add a button to delete an item from a list using its index.
+29. Display an array of objects (e.g., products) with their names and prices.
+30. Create a searchable list where typing filters the displayed items.
