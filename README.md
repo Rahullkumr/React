@@ -60,7 +60,7 @@ Learning React from Prasad Kadam sir
  7. Open http://localhost:5173 in your browser to view the app.
 
 
-## Steps to configure Tailwind
+## Steps to configure Tailwind in a React project
 
 1. Install Tailwind CSS and other dependencies
 
